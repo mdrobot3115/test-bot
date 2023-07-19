@@ -12,9 +12,14 @@
         "TG_USER_SESSION": {"description": "String Session from an admin user. Go to: t.ly/GxsB ","required": true},
         "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
   },
-  "buildpacks": [
-        {
-            "url": "heroku/python"
+  "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
         }
-    ],
+    }
 }
