@@ -1,5 +1,5 @@
 {
-  "name": "clonebot-ui",
+  "name": "clonebot",
   "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
   "keywords": ["telegram", "best", "Media", "cloning", "copying", "robot"],
   "logo": "https://cdn.dribbble.com/users/1658045/screenshots/4999712/clonelogo-01.png",
@@ -12,9 +12,9 @@
         "TG_USER_SESSION": {"description": "String Session from an admin user. Go to: t.ly/GxsB ","required": true},
         "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
   },
-  "addons": [],
-    "buildpacks": [{
-        "url": "heroku/python"
-    }],
-    
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }
