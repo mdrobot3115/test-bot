@@ -1,22 +1,48 @@
 {
-  "name": "test-clone-bot",
-  "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
-  "keywords": ["telegram", "best", "Media", "cloning", "copying", "robot"],
-  "logo": "https://cdn.dribbble.com/users/1658045/screenshots/4999712/clonelogo-01.png",
-  "website": "https://github.com/mdrobot3115/test-clone-bot",
-  "repository": "https://github.com/mdrobot3115/test-clone-bot",
-  "env": {
-        "APP_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
-        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
-        "TG_BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true},
-        "TG_USER_SESSION": {"description": "String Session from an admin user. Go to: t.ly/GxsB ","required": true},
-        "AUTH_USERS": {"description": "AUTH USERS ","required": true},
-        "DB_URI": {"description": "DATABASE URL","required": true},
-        "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
-  },
-  "buildpacks": [
+    "name": "test-clone-bo",
+    "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "best",
+        "Media",
+        "cloning",
+        "copying",
+        "robot",
+        "bot"
+    ],
+    "repository": "https://github.com/mdrobot3115/test-clone-bot",
+    "website": "",
+    "success_url": "",
+    "env": {
+        "API_HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        },
+        "TG_BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "TG_USER_SESSION": {
+            "description": "Pyrogram string session.",
+            "value": ""
+        },
+        "AUTH_USERS": {
+            "description": "User ID of Bot owner.",
+            "value": ""
+        },
+        "DB_URI": {
+            "description": "DATABASE URL",
+            "value": ""
+        }
+    },
+    "buildpacks": [
         {
             "url": "heroku/python"
-        }
+        },
     ]
 }
