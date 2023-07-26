@@ -13,7 +13,7 @@
     ],
     "repository": "https://github.com/mdrobot3115/test-clone-bot",
     "website": "",
-    "success_url": "",
+    "success_url": "https://github.com/mdrobot3115/test-clone-bot",
     "env": {
         "API_HASH": {
             "description": "Your API HASH from my.telegram.org",
