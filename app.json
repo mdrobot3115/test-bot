@@ -40,17 +40,15 @@
             "value": ""
         }
     },
-    "addons": [
-         {
-            "plan": "Eco",
-            "options": {
-            "version": "12"
-      }
+    "buildpacks": [
+    {
+      "url": "heroku/python"
     }
   ],
-    "buildpacks": [
-        {
-           "url": "heroku/python"
-        }
-    ]
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
 }
