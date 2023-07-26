@@ -13,10 +13,10 @@
     </a>
 
 <p align="center">
-  <a href="https://github.com/m4mallu/clonebot-ui/stargazers">
+  <a href="">
     <img src="https://img.shields.io/github/stars/m4mallu/clonebot-ui?style=social">
   </a>
-  <a href="https://github.com/m4mallu/clonebot-ui/fork">
+  <a href="">
     <img src="https://img.shields.io/github/forks/m4mallu/clonebot-ui?label=Fork&style=social">
   </a>  
 </p>
