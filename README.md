@@ -23,7 +23,7 @@
 
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mdrobot3115/test-bot/add-license-1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mdrobot3115/test-bot/tree/add-license-1)
 
 <br>
 
