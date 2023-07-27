@@ -1,51 +1,41 @@
 {
-    "name": "test-clone-bo",
-    "description": "Purpose RoBot",
-    "logo": "",
-    "keywords": [
-        "telegram",
-        "best",
-        "Media",
-        "cloning",
-        "copying",
-        "robot",
-        "bot"
-    ],
-    "repository": "https://github.com/mdrobot3115/test-bot",
-    "website": "",
-    "success_url": "https://github.com/mdrobot3115/test-bot",
-    "env": {
-        "API_HASH": {
-            "description": "Your API HASH from my.telegram.org",
-            "value": ""
-        },
-        "APP_ID": {
-            "description": "Your API ID from my.telegram.org",
-            "value": ""
-        },
-        "TG_BOT_TOKEN": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-        },
-        "TG_USER_SESSION": {
-            "description": "Pyrogram string session.",
-            "value": ""
-        },
-        "AUTH_USERS": {
-            "description": "User ID of Bot owner.",
-            "value": ""
-        },
-        "DB_URI": {
-            "description": "DATABASE URL",
-            "value": ""
-        }
-    },
-    "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
+  "name": "test-bot",
+  "description": "Telegram's Best Smart Plugin File Forward Bot",
+  "keywords": [
+    "telegram",
+    "best",
+    "file",
+    "forward",
+    "bot"
   ],
-   "formation": {
+  "repository": "https://github.com/mdrobot3115/test-bot",
+  "env": {
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": "9844066"
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": "0d3f74056f1e60388d3317548799ee17"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Your bot token from @BotFather",
+      "value": "5757059757:AAEvjvpv1gmn8xHGAONAiTEjEbN7OaHwka8"
+    },
+    "AUTH_USERS": {
+      "description": "Enter Your Telegram id",
+      "value": ""
+    },
+     "DB_URI": {
+      "description": "Database cluster name",
+      "value": "Cluster0"
+    }, 
+    "TG_USER_SESSION": {
+      "description": "Pyrogram string Session https://t.me/string_session_generator_658_bot",
+      "value": ""
+    }
+  },
+  "formation": {
     "worker": {
       "quantity": 1,
       "size": "eco"
